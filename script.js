@@ -7,7 +7,7 @@ var numbers = "0123456789";
 function generatePassword() {
   var password = "";
   var possible = "";
-  var passwordLength = prompt("How many characters do you want in your  password, it must be more than 12 but less than 128.");
+  var passwordLength = prompt("How many characters do you want in your  password, it must at least 8 but less than 128.");
 
   var hasNumbers = confirm("Do you want numbers in your password?");
 
